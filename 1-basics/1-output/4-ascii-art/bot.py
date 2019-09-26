@@ -4,6 +4,6 @@ eye = input()
 print("Beep's expression is now as follows")
 
 print("##########")
-print("#"," ",     eye,  eye,"  ","#")
+print("# ",     eye,  eye,"  ","#")
 print("#  ----  #")
 print("##########")
