@@ -7,7 +7,7 @@ height = float(input())
 print("What is your wheight?",name)
 weight = float(input())
 
-heightsquared = height*2
+heightsquared = height*height
 
 bodymass = weight/heightsquared
 
