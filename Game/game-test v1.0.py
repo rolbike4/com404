@@ -24,7 +24,7 @@ pq2 = -1
 q1 = input()
 
 
-if q1 == "Lufthansa":print("Correct you gained a life"), print("Life","♥"*viata),
-viata = life + pq1
+if (q1 == "Lufthansa"):
+    print("Correct you gained a life"), print("Life","♥"*viata),(viata = life + pq1)
 else if:print("Incorrect you lost a life")
 
