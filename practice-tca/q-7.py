@@ -11,12 +11,6 @@ def grid(metin):
     x = min(len(metin)-1,4)
     for e in range(0,min(5,len(metin))):
         print("Halloween ","| Halloween"*x)
-
-
-
-
-
-
 def run ():
     message = input("Enter a message: ")
     user_response = input("Enter an option: ")
@@ -28,6 +22,5 @@ def run ():
         print(both(message))
     else:
         user_response == "grid"
-        print(grid(message))
+        grid(message)
 run()
-print("1")
